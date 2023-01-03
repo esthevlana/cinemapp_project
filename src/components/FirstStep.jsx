@@ -16,7 +16,7 @@ function FirstStep(props) {
         <BsCircleFill /> <BsCircle /> <BsCircle />
       </div>
 
-      <div>
+      <div className="text-container">
         <h1>Choose one of the three movies</h1>
       </div>
 
@@ -32,13 +32,11 @@ function FirstStep(props) {
 export const StyleStepForm = styled.div`
   .question-container {
     box-sizing: border-box;
-
     position: absolute;
     width: 220px;
     height: 97px;
     left: calc(50% - 220px / 2);
-    top: 22%;
-
+    top: 8em;
     background: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.13);
     border-radius: 8px;
@@ -50,9 +48,15 @@ export const StyleStepForm = styled.div`
     text-align: center;
     text-transform: uppercase;
     color: #22daa8;
+    padding: 0.1em 0 0.1em 0;
   }
 
-  h1 {
+  .text-container {
+    padding: 1.5em 0 1.5em 0;
+    position: relative;
+  }
+
+  .text-container h1 {
     color: #ffffff;
     margin-top: 7%;
   }
@@ -64,6 +68,7 @@ export const StyleStepForm = styled.div`
     justify-content: center;
     align-items: center;
     align-content: center;
+    gap: 1vh;
   }
 
   .movie-images img {

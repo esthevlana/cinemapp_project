@@ -40,7 +40,7 @@ function ThirdStep(props) {
           <BsCircle /> <BsCircle /> <BsCircleFill />
         </div>
   
-        <div>
+        <div className="text-container">
           <h1>Which one do you want to watch now?</h1>
         </div>
   

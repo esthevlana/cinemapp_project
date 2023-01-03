@@ -22,7 +22,7 @@ function SecondStep(props) {
         <BsCircle /> <BsCircleFill /> <BsCircle />
       </div>
 
-      <div>
+      <div className="text-container">
         <h1>Which one do you like the most?</h1>
       </div>
 
